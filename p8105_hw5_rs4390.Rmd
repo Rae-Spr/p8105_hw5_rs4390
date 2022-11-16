@@ -31,8 +31,7 @@ scale_fill_discrete = scale_fill_viridis_d
 # Problem 1 
 
 ## Creating a dataframe 
-```{r}
-
+```{r, message = FALSE, warning = FALSE}
 long_study_df = list.files(path = "./data")
 
 study_df = tibble(files = long_study_df)
